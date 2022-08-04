@@ -179,11 +179,20 @@ aside {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.301);
 }
 
-aside > ul {
+ul {
     list-style-position: inside;
     columns: 2;
     list-style-type: '\2714\00A0\00A0';
 }
+
+@media screen and (max-width: 600px) {
+    ul {
+      font-size: 14px;
+      padding: 10px 15px;
+      columns: 1;
+      text-align: center;
+    }
+  }
 
 aside > h3 {
     background-color: var(--cor4);
