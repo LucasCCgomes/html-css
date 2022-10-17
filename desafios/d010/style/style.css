@@ -221,3 +221,40 @@ footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
 }
+
+.curiosidade {
+    max-width: 300px;
+    max-height: 186px;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: #054d22a1; 
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+
+.curiosidade img {
+    max-width: 120px;
+    max-height: 100px;
+    margin: 8px;
+}
+
+.curiosidade h2 {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.curiosidade article {
+    margin: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.curiosidade p {
+    text-align: right;
+    text-indent: 10;
+}
+
+#curiosidade {
+    display: flex;
+}
