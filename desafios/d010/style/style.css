@@ -185,15 +185,6 @@ ul {
     list-style-type: '\2714\00A0\00A0';
 }
 
-@media screen and (max-width: 600px) {
-    ul {
-      font-size: 14px;
-      padding: 10px 15px;
-      columns: 1;
-      text-align: center;
-    }
-  }
-
 aside > h3 {
     background-color: var(--cor4);
     color: white;
@@ -222,6 +213,12 @@ footer a:hover {
     color: var(--cor1);
 }
 
+
+.fonte-info {
+    text-align: center;
+}
+
+
 .curiosidade {
     max-width: 300px;
     max-height: 186px;
@@ -233,10 +230,9 @@ footer a:hover {
     
 }
 
-.curiosidade img {
-    max-width: 120px;
+.img-mascote img {
+    width: 100%;
     max-height: 100px;
-    margin: 8px;
 }
 
 .curiosidade h2 {
@@ -257,4 +253,10 @@ footer a:hover {
 
 #curiosidade {
     display: flex;
+}
+
+.img-mascote {
+    max-width: 120px;
+    min-width: 100px;
+    max-height: 100px;
 }
