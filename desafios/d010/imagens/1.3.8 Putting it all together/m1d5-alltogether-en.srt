@@ -1,0 +1,700 @@
+0
+00:00:00,000 --> 00:00:01,800
+Hi there! I've shown you previously
+
+1
+00:00:01,800 --> 00:00:03,965
+how to build this HTML page.
+
+2
+00:00:03,965 --> 00:00:07,218
+That page like this one is not very inspiring,
+
+3
+00:00:07,218 --> 00:00:08,505
+so what I'd like to do now,
+
+4
+00:00:08,505 --> 00:00:10,230
+is dive deeper and show you how to
+
+5
+00:00:10,230 --> 00:00:14,153
+create a richer page like this one.
+
+6
+00:00:14,153 --> 00:00:15,275
+As you can see,
+
+7
+00:00:15,275 --> 00:00:17,780
+it looks like a little profile page about me,
+
+8
+00:00:17,780 --> 00:00:20,630
+and it contains richer content.
+
+9
+00:00:20,630 --> 00:00:22,310
+So let's go back to JSBin,
+
+10
+00:00:22,310 --> 00:00:25,366
+and create this page from scratch.
+
+11
+00:00:25,366 --> 00:00:27,885
+So here I am back in JSBin.
+
+12
+00:00:27,885 --> 00:00:30,485
+I've opened up a new page.
+
+13
+00:00:30,485 --> 00:00:32,360
+So let's start creating.
+
+14
+00:00:32,360 --> 00:00:37,265
+The first thing I'll do is change the title of our page,
+
+15
+00:00:37,265 --> 00:00:41,415
+to something more meaningful.
+
+16
+00:00:41,415 --> 00:00:43,400
+"Meet Andrew" for example.
+
+17
+00:00:43,400 --> 00:00:45,890
+If you recall on that page I showed you
+
+18
+00:00:45,890 --> 00:00:48,455
+we had my name in nice big letters.
+
+19
+00:00:48,455 --> 00:00:50,075
+We can achieve this using the HTML
+
+20
+00:00:50,075 --> 00:00:53,030
+heading elements in the body of my page.
+
+21
+00:00:53,030 --> 00:00:57,400
+The HTML5 defines six heading levels:
+
+22
+00:00:57,400 --> 00:01:00,440
+'h1' to 'h6', with 'h1' being
+
+23
+00:01:00,440 --> 00:01:02,510
+the most important heading and it is
+
+24
+00:01:02,510 --> 00:01:05,530
+rendered in a larger font than all others.
+
+25
+00:01:05,530 --> 00:01:08,615
+So I'll add my name using a h1 header.
+
+26
+00:01:08,615 --> 00:01:11,715
+Here I type in this tag 'h1',
+
+27
+00:01:11,715 --> 00:01:14,925
+and I have to close my tag,
+
+28
+00:01:14,925 --> 00:01:22,220
+and in between, I'll just go ahead and write my name.
+
+29
+00:01:22,220 --> 00:01:24,425
+And as you can see on the right-hand side,
+
+30
+00:01:24,425 --> 00:01:27,770
+my name displays in nice big letters.
+
+31
+00:01:27,770 --> 00:01:30,260
+Before moving on, let's try
+
+32
+00:01:30,260 --> 00:01:33,290
+to put the original page that I showed you,
+
+33
+00:01:33,290 --> 00:01:34,850
+my little profile page,
+
+34
+00:01:34,850 --> 00:01:37,555
+side by side with this JSBin page,
+
+35
+00:01:37,555 --> 00:01:39,020
+so we can see
+
+36
+00:01:39,020 --> 00:01:41,375
+exactly what I'm talking about as we move along.
+
+37
+00:01:41,375 --> 00:01:45,324
+So to do that I'll just take this page, and move it over,
+
+38
+00:01:45,324 --> 00:01:49,450
+and just align it up to the side of my window,
+
+39
+00:01:49,450 --> 00:01:54,000
+and let me see I can make this one a lot smaller.
+
+40
+00:01:54,000 --> 00:01:55,550
+Now the next thing to work
+
+41
+00:01:55,550 --> 00:01:58,070
+on is adding an image to our page.
+
+42
+00:01:58,070 --> 00:02:01,900
+We do this using the 'img' or image tag.
+
+43
+00:02:01,900 --> 00:02:05,005
+I'll just add one here.
+
+44
+00:02:05,005 --> 00:02:07,810
+As you can see, this is
+
+45
+00:02:07,810 --> 00:02:11,290
+a self closing tag meaning you don't have an end tag.
+
+46
+00:02:11,290 --> 00:02:12,855
+Inside the image tag,
+
+47
+00:02:12,855 --> 00:02:15,490
+we'll use some attributes to set up our image.
+
+48
+00:02:15,490 --> 00:02:20,460
+And the first one I'm going to use is the 'alt' attribute.
+
+49
+00:02:20,460 --> 00:02:23,965
+Now the alt attribute specifies
+
+50
+00:02:23,965 --> 00:02:25,600
+alternate text for the image which is
+
+51
+00:02:25,600 --> 00:02:27,955
+very important in two scenarios.
+
+52
+00:02:27,955 --> 00:02:31,240
+If for some reason the image you define can't be loaded,
+
+53
+00:02:31,240 --> 00:02:34,440
+the page will at least show this text.
+
+54
+00:02:34,440 --> 00:02:36,730
+It's also used by screen reading software to
+
+55
+00:02:36,730 --> 00:02:39,450
+help describe to those that are visually impaired,
+
+56
+00:02:39,450 --> 00:02:41,195
+what has been shown in the image.
+
+57
+00:02:41,195 --> 00:02:44,037
+So make sure the text is descriptive.
+
+58
+00:02:44,037 --> 00:02:49,920
+In this case I'll just write "A picture of Andrew Byrne".
+
+59
+00:02:49,920 --> 00:02:56,035
+The next attribute to use is the 'src' or source attribute.
+
+60
+00:02:56,035 --> 00:02:59,220
+And this attribute tells
+
+61
+00:02:59,220 --> 00:03:01,755
+the HTML page the location of the image,
+
+62
+00:03:01,755 --> 00:03:04,690
+by specifying a URL.
+
+63
+00:03:04,690 --> 00:03:09,560
+So I'll just paste my location of my image into
+
+64
+00:03:09,560 --> 00:03:14,885
+this source attribute and there you go.
+
+65
+00:03:14,885 --> 00:03:17,820
+So you see the image has appeared but it is very big.
+
+66
+00:03:17,820 --> 00:03:19,340
+So let's restrict the dimensions of
+
+67
+00:03:19,340 --> 00:03:21,500
+the image using another attribute.
+
+68
+00:03:21,500 --> 00:03:27,065
+This time we'll use the width attribute.
+
+69
+00:03:27,065 --> 00:03:31,520
+Here, I'll just specify a with the image, and as you
+
+70
+00:03:31,520 --> 00:03:33,620
+can see that has restricted the width and
+
+71
+00:03:33,620 --> 00:03:35,762
+therefore because of the aspect ratio,
+
+72
+00:03:35,762 --> 00:03:38,960
+also the height of the image to this particular size.
+
+73
+00:03:38,960 --> 00:03:42,905
+And there you have it, a picture displaying on our page.
+
+74
+00:03:42,905 --> 00:03:46,595
+Okay, it's time to add some text to the page.
+
+75
+00:03:46,595 --> 00:03:48,890
+Let me introduce the paragraph
+
+76
+00:03:48,890 --> 00:03:51,645
+and break tags for that purpose.
+
+77
+00:03:51,645 --> 00:03:54,890
+So as its name suggests, the paragraph tag 'p',
+
+78
+00:03:54,890 --> 00:03:57,065
+delimits a paragraph on your page.
+
+79
+00:03:57,065 --> 00:04:01,250
+Let's add a paragraph tag and type some text inside.
+
+80
+00:04:01,250 --> 00:04:05,615
+So here I have a paragraph 'p' tag,
+
+81
+00:04:05,615 --> 00:04:10,425
+and I'm just inside it.
+
+82
+00:04:10,425 --> 00:04:13,160
+Just copy and paste, for the sake of time,
+
+83
+00:04:13,160 --> 00:04:17,020
+some text. As you can see
+
+84
+00:04:17,020 --> 00:04:18,750
+the text wraps on the page,
+
+85
+00:04:18,750 --> 00:04:21,370
+but if I want to add an actual new line,
+
+86
+00:04:21,370 --> 00:04:22,900
+you think I might need to just
+
+87
+00:04:22,900 --> 00:04:25,720
+simply hit enter and start typing.
+
+88
+00:04:25,720 --> 00:04:29,245
+So let's try to add more texts.
+
+89
+00:04:29,245 --> 00:04:33,285
+If I go into my HTML and I hit at the end of this line,
+
+90
+00:04:33,285 --> 00:04:37,600
+if I hit "ENTER" or "RETURN" and start typing,
+
+91
+00:04:37,600 --> 00:04:39,790
+what you can see is
+
+92
+00:04:39,790 --> 00:04:41,990
+that the new line wasn't recognized and
+
+93
+00:04:41,990 --> 00:04:43,270
+the output is still in
+
+94
+00:04:43,270 --> 00:04:46,525
+the same line as the previous text.
+
+95
+00:04:46,525 --> 00:04:48,880
+It's just wrapped on this page because of the size of
+
+96
+00:04:48,880 --> 00:04:53,560
+this window but still on the same line as you can see.
+
+97
+00:04:53,560 --> 00:04:56,230
+So the solution to this problem is to use
+
+98
+00:04:56,230 --> 00:04:59,710
+another paragraph element nested inside this one,
+
+99
+00:04:59,710 --> 00:05:01,870
+or more simply, I can use
+
+100
+00:05:01,870 --> 00:05:05,200
+the break 'br' self closing tag as follows.
+
+101
+00:05:05,200 --> 00:05:08,020
+So just before this particular sentence,
+
+102
+00:05:08,020 --> 00:05:10,790
+if I just put in the break tag,
+
+103
+00:05:10,790 --> 00:05:12,610
+it will move that to a new line, and I
+
+104
+00:05:12,610 --> 00:05:14,275
+can have as many of those as I like
+
+105
+00:05:14,275 --> 00:05:18,270
+inside my paragraphs and inside my text.
+
+106
+00:05:18,270 --> 00:05:22,695
+So there's some text i have added to my profile page.
+
+107
+00:05:22,695 --> 00:05:25,650
+We're making really good progress now.
+
+108
+00:05:25,650 --> 00:05:29,475
+So let's look at this subheading.
+
+109
+00:05:29,475 --> 00:05:31,500
+If you recall, I mentioned that
+
+110
+00:05:31,500 --> 00:05:34,920
+HTML5 defines a number of default heading levels.
+
+111
+00:05:34,920 --> 00:05:37,980
+So this time, we're going to go ahead and
+
+112
+00:05:37,980 --> 00:05:41,305
+we'll use a 'h2' header as follows.
+
+113
+00:05:41,305 --> 00:05:44,926
+So just here, I'll say h2,
+
+114
+00:05:44,926 --> 00:05:52,280
+and inside it, I'll add my text.
+
+115
+00:05:52,280 --> 00:05:55,660
+Great.
+
+116
+00:05:55,660 --> 00:05:57,695
+Let's list my hobbies
+
+117
+00:05:57,695 --> 00:05:59,475
+using an unordered list.
+
+118
+00:05:59,475 --> 00:06:01,678
+I'll just go outside of this heading tag,
+
+119
+00:06:01,678 --> 00:06:05,105
+and here I'll use the ul element.
+
+120
+00:06:05,105 --> 00:06:07,790
+Using the 'ul' tag.
+
+121
+00:06:07,790 --> 00:06:10,100
+So that's an unordered list and
+
+122
+00:06:10,100 --> 00:06:12,265
+it should contain a list of
+
+123
+00:06:12,265 --> 00:06:16,290
+items represented by the 'li' tag.
+
+124
+00:06:16,290 --> 00:06:18,445
+So first line, i will add is
+
+125
+00:06:18,445 --> 00:06:29,462
+swimming, and then i will add another one, learning,
+
+126
+00:06:29,462 --> 00:06:33,605
+and last but not least in this list,
+
+127
+00:06:33,605 --> 00:06:39,425
+i will add spending time with family and friends.
+
+128
+00:06:39,425 --> 00:06:43,300
+And that's my list.
+
+129
+00:06:43,300 --> 00:06:45,310
+And as you can see, it's
+
+130
+00:06:45,310 --> 00:06:47,400
+a bulleted list of items at the moment.
+
+131
+00:06:47,400 --> 00:06:49,900
+If I want to make it an ordered list,
+
+132
+00:06:49,900 --> 00:06:54,290
+I just change this 'ul' tag to 'ol'.
+
+133
+00:06:54,290 --> 00:06:56,700
+And as you can see over in
+
+134
+00:06:56,700 --> 00:06:59,774
+the output, it's actually changed to an ordered list.
+
+135
+00:06:59,774 --> 00:07:02,605
+Of course now that this is an ordered list,
+
+136
+00:07:02,605 --> 00:07:09,215
+I think I'll go ahead and change my priorities.
+
+137
+00:07:09,215 --> 00:07:11,710
+So there you go. Now we have the page
+
+138
+00:07:11,710 --> 00:07:14,770
+and it's got this list of my hobbies
+
+139
+00:07:14,770 --> 00:07:16,480
+ordered exactly as I
+
+140
+00:07:16,480 --> 00:07:18,665
+have them over here in the original page.
+
+141
+00:07:18,665 --> 00:07:21,215
+Our page is looking really good now.
+
+142
+00:07:21,215 --> 00:07:23,155
+So the last thing to do is to add
+
+143
+00:07:23,155 --> 00:07:26,860
+that link at the end to my Twitter page.
+
+144
+00:07:26,860 --> 00:07:29,950
+Now you see lots of links like this in HTML pages,
+
+145
+00:07:29,950 --> 00:07:32,605
+and when you click on one such as this one,
+
+146
+00:07:32,605 --> 00:07:36,060
+the browser takes you to that link's destination.
+
+147
+00:07:36,060 --> 00:07:37,880
+In this case, it's my Twitter page.
+
+148
+00:07:37,880 --> 00:07:42,775
+Okay, so let's go back to the HTML editing.
+
+149
+00:07:42,775 --> 00:07:45,370
+Links, also called hyperlinks,
+
+150
+00:07:45,370 --> 00:07:48,360
+are added to a page using the 'a' tag.
+
+151
+00:07:48,360 --> 00:07:52,955
+I'll start a new paragraph first and add some text,
+
+152
+00:07:52,955 --> 00:07:58,350
+and here I'll say something like:
+
+153
+00:07:58,350 --> 00:08:05,755
+"Come say hello on Twitter at".
+
+154
+00:08:05,755 --> 00:08:08,980
+Okay, so in line with this text, I'm going to
+
+155
+00:08:08,980 --> 00:08:12,855
+add the 'a' tag as follows.
+
+156
+00:08:12,855 --> 00:08:15,520
+To tell the browser where to navigate to once the link is
+
+157
+00:08:15,520 --> 00:08:19,370
+clicked, I'll define the 'href' attribute:
+
+158
+00:08:19,370 --> 00:08:24,535
+'href='. And I'll just add in the URL or
+
+159
+00:08:24,535 --> 00:08:28,240
+the destination address of
+
+160
+00:08:28,240 --> 00:08:31,150
+the page to which I want to navigate.
+
+161
+00:08:31,150 --> 00:08:34,835
+In this case, my Twitter account.
+
+162
+00:08:34,835 --> 00:08:41,275
+So that's the 'href', and then what I need to do,
+
+163
+00:08:41,275 --> 00:08:44,470
+is to add some link text and I do that
+
+164
+00:08:44,470 --> 00:08:47,575
+by adding my Twitter handle in this case
+
+165
+00:08:47,575 --> 00:08:55,258
+between the opening and closing tags for the hyperlink.
+
+166
+00:08:55,258 --> 00:08:56,585
+And there you go.
+
+167
+00:08:56,585 --> 00:08:58,540
+You can see that the link has been created on
+
+168
+00:08:58,540 --> 00:09:00,523
+the page. So that's it.
+
+169
+00:09:00,523 --> 00:09:02,770
+We have a page replicated, it
+
+170
+00:09:02,770 --> 00:09:04,120
+looks exactly like the one that
+
+171
+00:09:04,120 --> 00:09:05,710
+I showed you at the start.
+
+172
+00:09:05,710 --> 00:09:07,390
+We've introduced a lot of
+
+173
+00:09:07,390 --> 00:09:10,255
+different HTML elements and tags.
+
+174
+00:09:10,255 --> 00:09:13,000
+So why don't you try this out yourselves!
+
