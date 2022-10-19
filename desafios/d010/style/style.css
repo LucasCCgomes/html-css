@@ -17,11 +17,11 @@
 */
 :root{
     --cor0: #c5ebd6;
-    --cor1: #83e1ad;
-    --cor2: #3ddc84;
-    --cor3: #2fa866;
-    --cor4: #1a5c37;
-    --cor5: #063d1e;
+    --cor1: #75dddd;
+    --cor2: #3dafdc;
+    --cor3: #508991;
+    --cor4: #1a345c;
+    --cor5: #214a6b;
 
     --fonte-padrao:Arial, Verdana, helvetica, sans-serif;
     --fonte-destaque:'Bebas Neue', cursive;
@@ -119,7 +119,7 @@ main h2{
 }
 
 main p {
-    margin: 15px 0px;
+    margin: 15px 50px;
     text-align: justify;
     text-indent: 30px;
     line-height: 1em;
@@ -148,6 +148,13 @@ main img{
     width: 100%;
 }
 
+.foto-mascote {
+   max-width: 500px;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
 main img.pequena{
     max-width: 350px;
     display: block;
@@ -157,7 +164,7 @@ main img.pequena{
 
 
 .video {
-  background-color: rgba(76, 158, 76, 0.582);
+  background-color: var(--cor2);
   margin: 0px 0px 30px 0px;
   padding: 0px;
   position: relative;
@@ -180,6 +187,7 @@ aside {
 }
 
 ul {
+    text-align: center;
     list-style-position: inside;
     columns: 2;
     list-style-type: '\2714\00A0\00A0';
@@ -217,7 +225,6 @@ footer a:hover {
 .fonte-info {
     text-align: center;
 }
-
 
 .curiosidade {
     max-width: 300px;
@@ -259,4 +266,8 @@ footer a:hover {
     max-width: 120px;
     min-width: 100px;
     max-height: 100px;
+}
+
+.descricao > p {
+ margin: 15px 0px;
 }
