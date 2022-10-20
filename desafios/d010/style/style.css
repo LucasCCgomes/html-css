@@ -119,7 +119,7 @@ main h2{
 }
 
 main p {
-    margin: 15px 50px;
+    margin: 15px 5%;
     text-align: justify;
     text-indent: 30px;
     line-height: 1em;
@@ -226,6 +226,12 @@ footer a:hover {
     text-align: center;
 }
 
+.organizacao-conteudo {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
 .curiosidade {
     max-width: 300px;
     max-height: 186px;
@@ -256,10 +262,6 @@ footer a:hover {
 .curiosidade p {
     text-align: right;
     text-indent: 10;
-}
-
-#curiosidade {
-    display: flex;
 }
 
 .img-mascote {
